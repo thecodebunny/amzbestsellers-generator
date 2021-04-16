@@ -1,0 +1,24 @@
+{
+    "name": "thecodebunny/amzbestsellers-generator",
+    "description": "TheCodeBunny Generator",
+    "license": "MIT",
+    "authors": [{
+        "name": "Hemang Vyas",
+        "email": "info@thecodebunny.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\PackageGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\PackageGenerator\\Providers\\PackageGeneratorServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
